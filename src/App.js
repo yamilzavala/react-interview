@@ -1,4 +1,5 @@
 import LoginForm from "./components/login/LoginForm";
+import User from "./components/user/User"
 
 function App() {
   const handleLogin = (credentials) => {
@@ -7,8 +8,12 @@ function App() {
 
   return (
     <div>
-      <h1>Login form</h1>
-      <LoginForm onLogin={handleLogin} />
+      {/* #1 - Login */}
+      {/* <h1>Login form</h1>
+      <LoginForm onLogin={handleLogin} /> */}
+
+      <User/>
+      
     </div>
   );
 }
