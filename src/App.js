@@ -1,7 +1,9 @@
 import LoginForm from "./components/login/LoginForm";
-import User from "./components/user/User"
+import User from "./components/user/User";
+import UsersTable from "./components/table/UsersTable";
 
 function App() {
+
   const handleLogin = (credentials) => {
     console.log('Login with credentials: ', credentials);
   }
@@ -12,8 +14,10 @@ function App() {
       {/* <h1>Login form</h1>
       <LoginForm onLogin={handleLogin} /> */}
 
-      <User/>
+      {/* #2 - Themes */}
+      {/* <User/> */}
       
+      <UsersTable />
     </div>
   );
 }
