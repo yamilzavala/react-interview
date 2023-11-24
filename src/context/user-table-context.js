@@ -16,7 +16,7 @@ const usersData = [
     { id: 12, name: 'Usuario 12', email: 'usuario12@example.com' }    
   ];
 
-  function Provider ({children}) {
+  function TableProvider ({children}) {
     const userTableData = {
         usersData
     }
@@ -28,5 +28,5 @@ const usersData = [
     )
   }
 
-  export {Provider}
+  export {TableProvider}
   export default UserTableContext;

@@ -6,9 +6,7 @@ const users = [
     {id: 2, name: 'user', photo: 'user'},
 ]
 
-const themes = ['dark', 'light']
-
-function Provider({children}) {
+function UserProvider({children}) {
     const [theme, setTheme] = useState('dark');
 
     const handleTheme = (color) => {
@@ -28,5 +26,5 @@ function Provider({children}) {
     )
 }
 
-export {Provider};
+export {UserProvider};
 export default UsersContext;
