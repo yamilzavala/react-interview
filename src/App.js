@@ -4,6 +4,7 @@ import UsersTable from "./components/table/UsersTable";
 import ClassComponent from "./theory/Class-Component";
 import Fc from "./theory/Fc-Component";
 import AppFcCustomHook from "./theory/custon-hook/exampleThree/AppFc";
+import AppStyled from "./theory/styled-components/basic-sxample/AppStyled";
 
 function App() {
 
@@ -28,7 +29,10 @@ function App() {
       <ClassComponent emotion='happiness'/> */}
 
       {/* theory - custom hook */}
-      <AppFcCustomHook /> 
+      {/* <AppFcCustomHook />  */}
+
+      {/* styled components */}
+      <AppStyled/>
     </div>
   );
 }
