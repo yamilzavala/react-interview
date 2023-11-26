@@ -3,6 +3,7 @@ import User from "./components/user/User";
 import UsersTable from "./components/table/UsersTable";
 import ClassComponent from "./theory/Class-Component";
 import Fc from "./theory/Fc-Component";
+import AppFcCustomHook from "./theory/custon-hook/exampleThree/AppFc";
 
 function App() {
 
@@ -23,8 +24,11 @@ function App() {
       {/* <UsersTable /> */}
 
       {/* theory - class component vs fc components*/}
-      <Fc emotion='sadness'/>
-      <ClassComponent emotion='happiness'/>
+      {/* <Fc emotion='sadness'/>
+      <ClassComponent emotion='happiness'/> */}
+
+      {/* theory - custom hook */}
+      <AppFcCustomHook /> 
     </div>
   );
 }
