@@ -5,6 +5,7 @@ import ClassComponent from "./theory/Class-Component";
 import Fc from "./theory/Fc-Component";
 import AppFcCustomHook from "./theory/custon-hook/exampleThree/AppFc";
 import AppStyled from "./theory/styled-components/basic-sxample/AppStyled";
+import AppStyledResponsive from "./theory/styled-components/responsive/AppStyled"
 import AppStyledComponent from "./theory/styled-components/complex-example/AppAstyledComponent";
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
 
       {/* styled components */}
       {/* <AppStyled/> */}
-      <AppStyledComponent/>
+      {/* <AppStyledComponent/> */}
+      <AppStyledResponsive/>
     </div>
   );
 }
