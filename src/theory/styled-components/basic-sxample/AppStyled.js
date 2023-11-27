@@ -45,8 +45,6 @@ color: black;
 cursor: pointer;
 `;
 
-
-
 const AppStyled = () => {
     return (
         <Wrapper>
