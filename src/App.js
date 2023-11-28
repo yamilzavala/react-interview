@@ -11,6 +11,7 @@ import StateVsProps from "./theory/state-vs-props/StateVsProps"
 import AppMemo from './theory/useMemo/otherExample/AppMemo'
 import AppCallback from './theory/useCallback/otherExample/AppCallback';
 import UseMemo from "./theory/useMemo/useMemoExample/UseMemo";
+import AppAxios from "./theory/axios/App";
 
 function App() {
 
@@ -52,7 +53,10 @@ function App() {
       {/* <AppCallback/> */}
 
       {/* useMemo */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+
+      {/* axios */}
+      <AppAxios/>
     </div>
   );
 }
