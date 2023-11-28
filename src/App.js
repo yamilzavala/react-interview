@@ -7,6 +7,7 @@ import AppFcCustomHook from "./theory/custon-hook/exampleThree/AppFc";
 import AppStyled from "./theory/styled-components/basic-sxample/AppStyled";
 import AppStyledResponsive from "./theory/styled-components/responsive/AppStyled"
 import AppStyledComponent from "./theory/styled-components/complex-example/AppAstyledComponent";
+import StateVsProps from "./theory/state-vs-props/StateVsProps"
 
 function App() {
 
@@ -36,7 +37,10 @@ function App() {
       {/* styled components */}
       {/* <AppStyled/> */}
       {/* <AppStyledComponent/> */}
-      <AppStyledResponsive/>
+      {/* <AppStyledResponsive/> */}
+
+      {/* props */}
+      <StateVsProps/>
     </div>
   );
 }
