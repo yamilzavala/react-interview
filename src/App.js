@@ -8,6 +8,9 @@ import AppStyled from "./theory/styled-components/basic-sxample/AppStyled";
 import AppStyledResponsive from "./theory/styled-components/responsive/AppStyled"
 import AppStyledComponent from "./theory/styled-components/complex-example/AppAstyledComponent";
 import StateVsProps from "./theory/state-vs-props/StateVsProps"
+import AppMemo from './theory/useMemo/otherExample/AppMemo'
+import AppCallback from './theory/useCallback/otherExample/AppCallback';
+import UseMemo from "./theory/useMemo/useMemoExample/UseMemo";
 
 function App() {
 
@@ -40,7 +43,16 @@ function App() {
       {/* <AppStyledResponsive/> */}
 
       {/* props */}
-      <StateVsProps/>
+      {/* <StateVsProps/> */}
+
+      {/* memo */}
+      {/* <AppMemo/> */}
+
+      {/* useCallback */}
+      {/* <AppCallback/> */}
+
+      {/* useMemo */}
+      <UseMemo/>
     </div>
   );
 }

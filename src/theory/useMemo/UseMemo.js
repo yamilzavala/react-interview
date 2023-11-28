@@ -4,7 +4,7 @@ import React, {useState, useMemo} from 'react';
 
 const arr = [1,4,6,2,7,8]
 
-const UseCallback = () => {
+const UseMemo = () => {
     const [state, setState] = useState(1)
 
     const someFc = () => {
@@ -26,4 +26,4 @@ const UseCallback = () => {
     );
 };
 
-export default UseCallback;
+export default UseMemo;
