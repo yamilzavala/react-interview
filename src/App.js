@@ -12,6 +12,8 @@ import AppMemo from './theory/useMemo/otherExample/AppMemo'
 import AppCallback from './theory/useCallback/otherExample/AppCallback';
 import UseMemo from "./theory/useMemo/useMemoExample/UseMemo";
 import AppAxios from "./theory/axios/App";
+import AppHOC from "./theory/hoc/other-example/classComponent/App";
+import AppHOCFc from "./theory/hoc/other-example/fcComponent/App";
 
 function App() {
 
@@ -56,7 +58,11 @@ function App() {
       {/* <UseMemo/> */}
 
       {/* axios */}
-      <AppAxios/>
+      {/* <AppAxios/> */}
+
+      {/* HOC */}
+      {/* <AppHOC/> */}
+      <AppHOCFc/>
     </div>
   );
 }
