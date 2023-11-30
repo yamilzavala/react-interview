@@ -20,6 +20,12 @@ import AppFormik from "./theory/formik/basic-formik/AppFormik";
 import AppFormikValidationSchema from "./theory/formik/validation-schema/AppFormik";
 import AppFormikComponent from "./theory/formik/formik-as-component/AppFormikComponent";
 import AppLazyLoading from "./theory/lazy-loading/AppLazyLoading";
+import { AppClass } from "./theory/hooks/useState-useEffect/AppClass";
+import { AppFC } from "./theory/hooks/useState-useEffect/AppFC";
+import AppUseReducer from "./theory/hooks/useReducer/AppUseReducer";
+import AppUseMemo from "./theory/hooks/useMemo/AppUseMemo";
+import AppUsecallback from "./theory/hooks/useCallback/AppUsecallback";
+import AppUseFetch from "./theory/hooks/customHook/AppUseFetch";
 
 function App() {
 
@@ -80,7 +86,15 @@ function App() {
       {/* <AppFormikComponent/> */}
 
       {/* Lazy loading */}
-      <AppLazyLoading/>
+      {/* <AppLazyLoading/> */}
+
+      {/* hooks */}
+      {/* <AppClass/> */}
+      {/* <AppFC/> */}
+      {/* <AppUseReducer/> */}
+      {/* <AppUseMemo/> */}
+      {/* <AppUsecallback/> */}
+      <AppUseFetch/>
     </div>
   );
 }
