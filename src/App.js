@@ -15,6 +15,7 @@ import AppAxios from "./theory/axios/App";
 import AppHOC from "./theory/hoc/other-example/classComponent/App";
 import AppHOCFc from "./theory/hoc/other-example/fcComponent/App";
 import AppTheme from "./theory/theme-dark-light/App";
+import AppRouter from "./theory/router/AppRouter";
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
 
       {/* #2 - Themes */}
       {/* <User/> */}
-      <AppTheme/>
+      {/* <AppTheme/> */}
       
       {/* #3 - table with pagination */}
       {/* <UsersTable /> */}
@@ -65,6 +66,9 @@ function App() {
       {/* HOC */}
       {/* <AppHOC/> */}
       {/* <AppHOCFc/> */}
+
+      {/* Router */}
+      <AppRouter/>
     </div>
   );
 }
