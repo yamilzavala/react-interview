@@ -19,6 +19,7 @@ import AppRouter from "./theory/router/AppRouter";
 import AppFormik from "./theory/formik/basic-formik/AppFormik";
 import AppFormikValidationSchema from "./theory/formik/validation-schema/AppFormik";
 import AppFormikComponent from "./theory/formik/formik-as-component/AppFormikComponent";
+import AppLazyLoading from "./theory/lazy-loading/AppLazyLoading";
 
 function App() {
 
@@ -76,7 +77,10 @@ function App() {
       {/* Formik */}
       {/* <AppFormik/> */}
       {/* <AppFormikValidationSchema/> */}
-      <AppFormikComponent/>
+      {/* <AppFormikComponent/> */}
+
+      {/* Lazy loading */}
+      <AppLazyLoading/>
     </div>
   );
 }
