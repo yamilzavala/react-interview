@@ -16,6 +16,9 @@ import AppHOC from "./theory/hoc/other-example/classComponent/App";
 import AppHOCFc from "./theory/hoc/other-example/fcComponent/App";
 import AppTheme from "./theory/theme-dark-light/App";
 import AppRouter from "./theory/router/AppRouter";
+import AppFormik from "./theory/formik/basic-formik/AppFormik";
+import AppFormikValidationSchema from "./theory/formik/validation-schema/AppFormik";
+import AppFormikComponent from "./theory/formik/formik-as-component/AppFormikComponent";
 
 function App() {
 
@@ -68,7 +71,12 @@ function App() {
       {/* <AppHOCFc/> */}
 
       {/* Router */}
-      <AppRouter/>
+      {/* <AppRouter/> */}
+
+      {/* Formik */}
+      {/* <AppFormik/> */}
+      {/* <AppFormikValidationSchema/> */}
+      <AppFormikComponent/>
     </div>
   );
 }

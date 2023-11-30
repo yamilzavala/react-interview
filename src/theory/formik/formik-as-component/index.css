@@ -1,0 +1,13 @@
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.field {
+    display: flex;
+}
+
+input {
+    padding: 5px;
+    margin:10px; 
+}
