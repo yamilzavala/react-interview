@@ -26,6 +26,7 @@ import AppUseReducer from "./theory/hooks/useReducer/AppUseReducer";
 import AppUseMemo from "./theory/hooks/useMemo/AppUseMemo";
 import AppUsecallback from "./theory/hooks/useCallback/AppUsecallback";
 import AppUseFetch from "./theory/hooks/customHook/AppUseFetch";
+import AppTable from "./theory/table-sorting-filtering/AppTable";
 
 function App() {
 
@@ -94,7 +95,10 @@ function App() {
       {/* <AppUseReducer/> */}
       {/* <AppUseMemo/> */}
       {/* <AppUsecallback/> */}
-      <AppUseFetch/>
+      {/* <AppUseFetch/> */}
+
+      {/* Table sorting filtering */}
+      <AppTable/>
     </div>
   );
 }

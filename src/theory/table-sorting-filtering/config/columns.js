@@ -1,0 +1,1 @@
+export const columnsConfig = ['id', 'name', 'age']
