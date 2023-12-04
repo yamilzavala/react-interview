@@ -27,6 +27,7 @@ import AppUseMemo from "./theory/hooks/useMemo/AppUseMemo";
 import AppUsecallback from "./theory/hooks/useCallback/AppUsecallback";
 import AppUseFetch from "./theory/hooks/customHook/AppUseFetch";
 import AppTable from "./theory/table-sorting-filtering/AppTable";
+import AppRedux from "./theory/redux/example1/AppRedux";
 
 function App() {
 
@@ -98,7 +99,10 @@ function App() {
       {/* <AppUseFetch/> */}
 
       {/* Table sorting filtering */}
-      <AppTable/>
+      {/* <AppTable/> */}
+
+      {/* Redux */}
+      <AppRedux searchText='foo'/>
     </div>
   );
 }
