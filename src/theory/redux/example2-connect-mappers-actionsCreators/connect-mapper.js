@@ -1,3 +1,5 @@
+import {addUser} from './actions'
+
 export const mapStateToProps = (state, ownProps) => {
     const usersWithFoo = state.filter(user => user.includes(ownProps.searchText))
     console.log('conect state: ', state, ownProps)
@@ -7,13 +9,9 @@ export const mapStateToProps = (state, ownProps) => {
     }
 }
 
-const addUser = (username) => {
-    return {type: 'ADD_USER', payload: username}
-}
-
 export const mapDispatchToProps = {
-   addUser,
-}
+    addUser,
+  };
 
 // const mapDispatchToProps = dispatch => {
 //     return {

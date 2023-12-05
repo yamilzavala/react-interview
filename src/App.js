@@ -28,6 +28,7 @@ import AppUsecallback from "./theory/hooks/useCallback/AppUsecallback";
 import AppUseFetch from "./theory/hooks/customHook/AppUseFetch";
 import AppTable from "./theory/table-sorting-filtering/AppTable";
 import AppRedux from "./theory/redux/example1/AppRedux";
+import AppReduxConnect from "./theory/redux/example2-connect-mappers-actionsCreators/AppReduxConnect";
 
 function App() {
 
@@ -103,6 +104,7 @@ function App() {
 
       {/* Redux */}
       <AppRedux searchText='foo'/>
+      {/* <AppReduxConnect/> */}
     </div>
   );
 }

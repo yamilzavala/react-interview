@@ -1,16 +1,20 @@
 import {useState} from 'react';
-import { user_store } from './store';
+import { connect } from 'react-redux';
+import { mapDispatchToProps, mapStateToProps } from './connect-mapper';
 
-const AppRedux = (props) => {
+const AppReduxConnect = (props) => {
     const [user, setUser] = useState('');
 
     //dispatch
     const handleAddUser = () => {
-        user_store.dispatch({type: 'ADD_USER',payload: user})
-        setUser('')
+        // props.dispatch({type: 'ADD_USER',payload: user})
+        // props.dispatch(props.addUser(user))
+        // setUser('')
+
+        props.addUser(user)
     }
 
-    const usersRendered = user_store.getState().map((user, idx) =>(
+    const usersRendered = props.users.map((user, idx) =>(
         <li key={idx}>{user}</li>
     ))
 
@@ -38,4 +42,4 @@ const AppRedux = (props) => {
 
 
 
-export default AppRedux;
+export default connect(mapStateToProps, mapDispatchToProps)(AppReduxConnect);

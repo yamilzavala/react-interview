@@ -17,7 +17,7 @@ root.render(
             <TableProvider>
                 <ThemeProvider>
                     <BrowserRouter>
-                        <App/>                
+                        <App />                
                     </BrowserRouter>
                 </ThemeProvider>
             </TableProvider>
