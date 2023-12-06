@@ -31,6 +31,7 @@ import AppRedux from "./theory/redux/example1/AppRedux";
 import AppReduxConnect from "./theory/redux/example2-connect-mappers-actionsCreators/AppReduxConnect";
 import AppReactHookForm from "./theory/react-hook-forms/example-1/AppReactHookForm";
 import AppReactHookForms2 from "./theory/react-hook-forms/example-2/AppReactHookForms2";
+import AppReactHookFormsZod from "./theory/react-hook-forms/zod/AppReactHookFormsZod";
 
 
 function App() {
@@ -111,7 +112,8 @@ function App() {
 
       {/* React hook form */}
       {/* <AppReactHookForm/> */}
-      <AppReactHookForms2/>
+      {/* <AppReactHookForms2/> */}
+      <AppReactHookFormsZod/>
     </div>
   );
 }
