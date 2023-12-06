@@ -30,6 +30,7 @@ import AppTable from "./theory/table-sorting-filtering/AppTable";
 import AppRedux from "./theory/redux/example1/AppRedux";
 import AppReduxConnect from "./theory/redux/example2-connect-mappers-actionsCreators/AppReduxConnect";
 import AppReactHookForm from "./theory/react-hook-forms/example-1/AppReactHookForm";
+import AppReactHookForms2 from "./theory/react-hook-forms/example-2/AppReactHookForms2";
 
 
 function App() {
@@ -109,7 +110,8 @@ function App() {
       {/* <AppReduxConnect/> */}
 
       {/* React hook form */}
-      <AppReactHookForm/>
+      {/* <AppReactHookForm/> */}
+      <AppReactHookForms2/>
     </div>
   );
 }
