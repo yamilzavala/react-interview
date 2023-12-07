@@ -32,6 +32,7 @@ import AppReduxConnect from "./theory/redux/example2-connect-mappers-actionsCrea
 import AppReactHookForm from "./theory/react-hook-forms/example-1/AppReactHookForm";
 import AppReactHookForms2 from "./theory/react-hook-forms/example-2/AppReactHookForms2";
 import AppReactHookFormsZod from "./theory/react-hook-forms/zod/AppReactHookFormsZod";
+import IndexPage from "./theory/react-hook-forms/multi-step/IndexPage";
 
 
 function App() {
@@ -113,7 +114,8 @@ function App() {
       {/* React hook form */}
       {/* <AppReactHookForm/> */}
       {/* <AppReactHookForms2/> */}
-      <AppReactHookFormsZod/>
+      {/* <AppReactHookFormsZod/> */}
+      <IndexPage/>
     </div>
   );
 }
