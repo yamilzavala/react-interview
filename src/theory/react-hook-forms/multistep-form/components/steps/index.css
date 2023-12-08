@@ -1,0 +1,6 @@
+.links {
+    color: white
+}
+.links:active {
+    color: orange
+}

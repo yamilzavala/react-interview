@@ -33,6 +33,7 @@ import AppReactHookForm from "./theory/react-hook-forms/example-1/AppReactHookFo
 import AppReactHookForms2 from "./theory/react-hook-forms/example-2/AppReactHookForms2";
 import AppReactHookFormsZod from "./theory/react-hook-forms/zod/AppReactHookFormsZod";
 import IndexPage from "./theory/react-hook-forms/multi-step/IndexPage";
+import AppMultistepForm from "./theory/react-hook-forms/multistep-form/AppMultistepForm";
 
 
 function App() {
@@ -115,7 +116,8 @@ function App() {
       {/* <AppReactHookForm/> */}
       {/* <AppReactHookForms2/> */}
       {/* <AppReactHookFormsZod/> */}
-      <IndexPage/>
+      {/* <IndexPage/> */}
+      <AppMultistepForm/>
     </div>
   );
 }
