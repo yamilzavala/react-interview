@@ -2,8 +2,10 @@ import { Link, Routes, Route } from 'react-router-dom'
 import {About, Education, Confirm, Contact} from '../components/steps'
 import NotFound from '../components/NotFound'
 import './Header.css';
+import { useRef } from 'react';
 
-const Header = () => {
+const Header = ({buttonRef}) => {
+
     return (
             <>
                 {/* <div>
@@ -13,10 +15,10 @@ const Header = () => {
                     <Link className='link' to='/confirm'>Confirm</Link>
                 </div> */}
                 <Routes >
-                    <Route index element={<Contact/>}/>
-                    <Route path='/education' element={<Education/>}/>
-                    <Route path='/about' element={<About/>}/>
-                    <Route path='/confirm' element={<Confirm/>}/>
+                    <Route index element={<Contact/>} ref={buttonRef}/>
+                    <Route path='/education' element={<Education/>} ref={buttonRef}/>
+                    <Route path='/about' element={<About/>} ref={buttonRef}/>
+                    <Route path='/confirm' element={<Confirm/>} ref={buttonRef}/>
                     <Route path='*' element={<NotFound/>}/>
                 </Routes>
             </>
