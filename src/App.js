@@ -35,6 +35,7 @@ import AppReactHookFormsZod from "./theory/react-hook-forms/zod/AppReactHookForm
 import IndexPage from "./theory/react-hook-forms/multi-step/IndexPage";
 import AppMultistepForm from "./theory/react-hook-forms/multistep-form/AppMultistepForm";
 import { AppMultiStep } from "./theory/react-hook-forms/multistep-form-refactor/AppMultiSteps";
+import AppProtectedRoutes from "./theory/routing/protected-routes/AppProtectedRoutes";
 
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
 
       {/* Router */}
       {/* <AppRouter/> */}
+      <AppProtectedRoutes/>
 
       {/* Formik */}
       {/* <AppFormik/> */}
@@ -119,7 +121,9 @@ function App() {
       {/* <AppReactHookFormsZod/> */}
       {/* <IndexPage/> */}
       {/* <AppMultistepForm/> */}
-      <AppMultiStep/>
+      {/* <AppMultiStep/> */}
+
+
     </div>
   );
 }
