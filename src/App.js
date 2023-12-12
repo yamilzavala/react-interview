@@ -37,6 +37,7 @@ import AppMultistepForm from "./theory/react-hook-forms/multistep-form/AppMultis
 import { AppMultiStep } from "./theory/react-hook-forms/multistep-form-refactor/AppMultiSteps";
 import AppProtectedRoutes from "./theory/routing/protected-routes/AppProtectedRoutes";
 import AppReactRouter from "./theory/routing/react-router/AppReactRouter";
+import AppHCOColors from "./theory/hoc/color-example/AppHCOColors";
 
 
 function App() {
@@ -88,11 +89,12 @@ function App() {
       {/* HOC */}
       {/* <AppHOC/> */}
       {/* <AppHOCFc/> */}
+      <AppHCOColors/>
 
       {/* Router */}
       {/* <AppRouter/> */}
       {/* <AppProtectedRoutes/> */}
-      <AppReactRouter/>
+      {/* <AppReactRouter/> */}
 
       {/* Formik */}
       {/* <AppFormik/> */}
