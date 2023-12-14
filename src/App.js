@@ -39,7 +39,6 @@ import AppProtectedRoutes from "./theory/routing/protected-routes/AppProtectedRo
 import AppReactRouter from "./theory/routing/react-router/AppReactRouter";
 import AppHCOColors from "./theory/hoc/color-example/AppHCOColors";
 
-
 function App() {
 
   const handleLogin = (credentials) => {
@@ -48,6 +47,7 @@ function App() {
 
   return (
     <div>
+
       {/* #1 - Login */}
       {/* <h1>Login form</h1>
       <LoginForm onLogin={handleLogin} /> */}
@@ -89,7 +89,7 @@ function App() {
       {/* HOC */}
       {/* <AppHOC/> */}
       {/* <AppHOCFc/> */}
-      <AppHCOColors/>
+      {/* <AppHCOColors/> */}
 
       {/* Router */}
       {/* <AppRouter/> */}
@@ -126,7 +126,6 @@ function App() {
       {/* <IndexPage/> */}
       {/* <AppMultistepForm/> */}
       {/* <AppMultiStep/> */}
-
 
     </div>
   );
