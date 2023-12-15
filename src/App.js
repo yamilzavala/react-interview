@@ -39,6 +39,8 @@ import AppProtectedRoutes from "./theory/routing/protected-routes/AppProtectedRo
 import AppReactRouter from "./theory/routing/react-router/AppReactRouter";
 import AppHCOColors from "./theory/hoc/color-example/AppHCOColors";
 import ReactSelect from "./theory/react-select/ReactSelect";
+import ReduxToolkit from "./theory/redux-toolkit/ReduxToolkit";
+
 
 
 function App() {
@@ -121,6 +123,9 @@ function App() {
       {/* <AppRedux searchText='foo'/> */}
       {/* <AppReduxConnect/> */}
 
+      {/* Redux toolkit */}
+      <ReduxToolkit/>
+
       {/* React hook form */}
       {/* <AppReactHookForm/> */}
       {/* <AppReactHookForms2/> */}
@@ -130,7 +135,7 @@ function App() {
       {/* <AppMultiStep/> */}
 
       {/*React select  */}
-      <ReactSelect/>
+      {/* <ReactSelect/> */}
 
     </div>
   );
