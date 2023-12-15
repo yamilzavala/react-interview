@@ -42,14 +42,17 @@ const styles = {
         return {
             ...styles,
             backgroundColor: data.bgcolor,
-            color: data.color
+            color: data.color,
+            ':hover': {
+                color: 'red'
+            }
         }
     },
     multiValue: (styles, {data}) => {
         return {
             ...styles,
             backgroundColor: data.bgcolor,
-            color: data.color
+            color: data.color,           
         }
     },
     multiValueLabel: (styles) => {
