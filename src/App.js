@@ -38,6 +38,8 @@ import { AppMultiStep } from "./theory/react-hook-forms/multistep-form-refactor/
 import AppProtectedRoutes from "./theory/routing/protected-routes/AppProtectedRoutes";
 import AppReactRouter from "./theory/routing/react-router/AppReactRouter";
 import AppHCOColors from "./theory/hoc/color-example/AppHCOColors";
+import ReactSelect from "./theory/react-select/ReactSelect";
+
 
 function App() {
 
@@ -126,6 +128,9 @@ function App() {
       {/* <IndexPage/> */}
       {/* <AppMultistepForm/> */}
       {/* <AppMultiStep/> */}
+
+      {/*React select  */}
+      <ReactSelect/>
 
     </div>
   );
