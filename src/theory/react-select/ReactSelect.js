@@ -1,7 +1,9 @@
 import Select from 'react-select'
+import CreateTableSelect from 'react-select/creatable'
 import AsyncSelect from 'react-select/async'
 import makeAnimated from 'react-select/animated'
 import './index.css';
+import { useState } from 'react';
 
 const options = [
     {value: 'value_1', label: 'option_1', color: 'blue', bgcolor: 'gray'},
@@ -50,13 +52,13 @@ const styles = {
             color: data.color
         }
     },
-    multiValueLabel: (styles, {data}) => {
+    multiValueLabel: (styles) => {
         return {
             ...styles,           
             color: 'black'
         }
     },
-    multiValueRemove: (styles, {data}) => {
+    multiValueRemove: (styles) => {
         return {
             ...styles,           
             color: 'orange'
@@ -65,6 +67,7 @@ const styles = {
 }
 
 const ReactSelect = () => {
+    const [ops, setOpts] = useState(options)
     return (
             <>
                 {/* //synchronous */}
@@ -88,7 +91,24 @@ const ReactSelect = () => {
                     onChange={(selectedValue) => console.log(selectedValue)}
                     defaultOptions
                     styles={styles}
-                    />            
+                    />         
+
+                {/* //Create option */}
+                <label>Create options</label>
+                <CreateTableSelect style={{color: 'black', backgroundColor: 'red'}}
+                    closeMenuOnSelect={false}
+                    options={ops}    
+                    onCreateOption={(inputValue) => { 
+                        const newOption = { 
+                            value: inputValue, 
+                            label: inputValue, 
+                            color: 'black', 
+                            bgcolor: 'red'
+                        }
+                        setOpts([...ops, newOption])
+                    }}    
+                    styles={styles}          
+                />        
             </>
        
     );
