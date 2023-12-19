@@ -40,6 +40,7 @@ import AppReactRouter from "./theory/routing/react-router/AppReactRouter";
 import AppHCOColors from "./theory/hoc/color-example/AppHCOColors";
 import ReactSelect from "./theory/react-select/ReactSelect";
 import ReduxToolkit from "./theory/redux-toolkit/ReduxToolkit";
+import AppHttp from "./theory/http/AppHttp";
 
 
 
@@ -124,7 +125,7 @@ function App() {
       {/* <AppReduxConnect/> */}
 
       {/* Redux toolkit */}
-      <ReduxToolkit/>
+      {/* <ReduxToolkit/> */}
 
       {/* React hook form */}
       {/* <AppReactHookForm/> */}
@@ -136,6 +137,9 @@ function App() {
 
       {/*React select  */}
       {/* <ReactSelect/> */}
+
+      {/* http */}
+      <AppHttp/>
 
     </div>
   );

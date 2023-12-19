@@ -1,0 +1,33 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "title 1",
+      "content": "note one",
+      "date": "01/04/2023",
+      "author": "typicode"
+    },
+    {
+      "id": "c6e3f96c-d77f-4950-9f2b-6e7973f68a25",
+      "title": "",
+      "content": "",
+      "date": "2023-12-19T00:06:27.869Z",
+      "author": "[object Object]"
+    }
+  ],
+  "users": [
+    {
+      "name": "juan",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "pablo"
+    },
+    {
+      "id": "4e813938-eedc-4d6d-b61e-fc0f35689f05",
+      "name": "yamil",
+      "author": "test"
+    }
+  ]
+}
