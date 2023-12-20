@@ -41,6 +41,7 @@ import AppHCOColors from "./theory/hoc/color-example/AppHCOColors";
 import ReactSelect from "./theory/react-select/ReactSelect";
 import ReduxToolkit from "./theory/redux-toolkit/ReduxToolkit";
 import AppHttp from "./theory/http/AppHttp";
+import AppToolKitSG from "./theory/redux-toolkit-Stephen-Grider/AppToolKitSG";
 
 
 
@@ -126,6 +127,7 @@ function App() {
 
       {/* Redux toolkit */}
       {/* <ReduxToolkit/> */}
+      <AppToolKitSG/>
 
       {/* React hook form */}
       {/* <AppReactHookForm/> */}
@@ -139,7 +141,7 @@ function App() {
       {/* <ReactSelect/> */}
 
       {/* http */}
-      <AppHttp/>
+      {/* <AppHttp/> */}
 
     </div>
   );
