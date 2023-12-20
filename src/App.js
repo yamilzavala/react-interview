@@ -42,6 +42,7 @@ import ReactSelect from "./theory/react-select/ReactSelect";
 import ReduxToolkit from "./theory/redux-toolkit/ReduxToolkit";
 import AppHttp from "./theory/http/AppHttp";
 import AppToolKitSG from "./theory/redux-toolkit-Stephen-Grider/AppToolKitSG";
+import ModalPage from "./theory/portals/pages/ModalPage";
 
 
 
@@ -127,7 +128,7 @@ function App() {
 
       {/* Redux toolkit */}
       {/* <ReduxToolkit/> */}
-      <AppToolKitSG/>
+      {/* <AppToolKitSG/> */}
 
       {/* React hook form */}
       {/* <AppReactHookForm/> */}
@@ -142,6 +143,9 @@ function App() {
 
       {/* http */}
       {/* <AppHttp/> */}
+
+      {/* Portals */}
+      <ModalPage/>
 
     </div>
   );
