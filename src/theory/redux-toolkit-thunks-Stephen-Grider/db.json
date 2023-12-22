@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "name": "Nellie Bailey",
+      "id": 2
+    },
+    {
+      "name": "Fannie Zulauf",
+      "id": 17
+    },
+    {
+      "name": "Craig Raynor",
+      "id": 18
+    },
+    {
+      "name": "Myron Rempel",
+      "id": 21
+    },
+    {
+      "name": "Ernestine Green",
+      "id": 22
+    },
+    {
+      "name": "Ms. Kay McCullough",
+      "id": 23
+    },
+    {
+      "name": "Marcos Johnson",
+      "id": 24
+    },
+    {
+      "name": "Rosemary Orn DDS",
+      "id": 25
+    }
+  ],
+  "albums": [],
+  "photos": []
+}

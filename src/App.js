@@ -44,6 +44,7 @@ import AppHttp from "./theory/http/AppHttp";
 import AppToolKitSG from "./theory/redux-toolkit-Stephen-Grider/AppToolKitSG";
 import ModalPage from "./theory/portals/pages/ModalPage";
 import AppNestedDropDown from "./theory/nested-dropdown/AppNestedDropDown";
+import AppReduxThunks from "./theory/redux-toolkit-thunks-Stephen-Grider/AppReduxThunks";
 
 
 
@@ -128,9 +129,10 @@ function App() {
       {/* <AppRedux searchText='foo'/> */}
       {/* <AppReduxConnect/> */}
 
-      {/* Redux toolkit */}
+      {/* Redux toolkit - thunks */}
       {/* <ReduxToolkit/> */}
       {/* <AppToolKitSG/> */}
+      <AppReduxThunks/>
 
       {/* React hook form */}
       {/* <AppReactHookForm/> */}
@@ -150,7 +152,7 @@ function App() {
       {/* <ModalPage/> */}
 
       {/* nested dropdown - select */}
-      <AppNestedDropDown/>
+      {/* <AppNestedDropDown/> */}
     </div>
   );
 }

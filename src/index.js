@@ -7,8 +7,9 @@ import { ThemeProvider } from './theory/theme-dark-light/context/theme';
 import {BrowserRouter } from 'react-router-dom';
 // import ReduxUserProvider from './theory/redux/example2-connect-mappers-actionsCreators/UserProvider';
 // import ReduxUserProvider from './theory/redux/example1/UserProvider';
-import {store} from './theory/redux-toolkit-Stephen-Grider/store'
+//import {store} from './theory/redux-toolkit-Stephen-Grider/store'
 import { Provider } from 'react-redux';
+import { store } from './theory/redux-toolkit-thunks-Stephen-Grider/store';
 
 
 const el = document.getElementById('root');
