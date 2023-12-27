@@ -45,6 +45,7 @@ import AppToolKitSG from "./theory/redux-toolkit-Stephen-Grider/AppToolKitSG";
 import ModalPage from "./theory/portals/pages/ModalPage";
 import AppNestedDropDown from "./theory/nested-dropdown/AppNestedDropDown";
 import AppReduxThunks from "./theory/redux-toolkit-thunks-Stephen-Grider/AppReduxThunks";
+import AppCssModules from "./theory/css-modules/AppCssModules";
 
 
 
@@ -153,6 +154,7 @@ function App() {
 
       {/* nested dropdown - select */}
       {/* <AppNestedDropDown/> */}
+      <AppCssModules/>
     </div>
   );
 }
