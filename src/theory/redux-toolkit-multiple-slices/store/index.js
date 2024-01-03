@@ -5,7 +5,7 @@ import { formReducer, changeCost, changeName} from './slices/formSlice'
 const store = configureStore({
     reducer: {
         cars: carsReducer,
-        forms: formReducer
+        form: formReducer
     }
 })
 

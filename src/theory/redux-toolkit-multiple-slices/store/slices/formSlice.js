@@ -1,18 +1,25 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { addCar } from "./carsSlice";
 
 const formSlice = createSlice({
     name: 'form',
     initialState: {
         name: 'some name',
-        const: 0
+        cost: 10
     },
     reducers: {
         changeName(state, action) {
             state.name = action.payload;
         },
         changeCost(state, action){
-            state.const = action.payload
+            state.cost = action.payload
         }
+    },
+    extraReducers(builder) {
+        builder.addCase(addCar, (state, action) => {
+            state.name = '';
+            state.cost = '';
+        })
     }
 })
 
