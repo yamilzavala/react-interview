@@ -11,6 +11,7 @@ import {BrowserRouter } from 'react-router-dom';
 // import { store } from './theory/redux-toolkit-thunks-Stephen-Grider/store';
 import { store } from './theory/redux-toolkit-multiple-slices/store'
 import { Provider } from 'react-redux';
+import {NavigationProvider} from './theory/navigation-Stephen-Grider/context/navigation'
 
 
 const el = document.getElementById('root');
@@ -19,15 +20,17 @@ const root = ReactDOM.createRoot(el);
 root.render(
     //  <ReduxUserProvider>
         <Provider store={store}>
-            <UserProvider>
-                <TableProvider>
-                    <ThemeProvider>
-                        <BrowserRouter>
-                            <App />
-                        </BrowserRouter>
-                    </ThemeProvider>
-                </TableProvider>
-            </UserProvider>
+            <NavigationProvider>
+                <UserProvider>
+                    <TableProvider>
+                        <ThemeProvider>
+                            <BrowserRouter>
+                                <App />
+                            </BrowserRouter>
+                        </ThemeProvider>
+                    </TableProvider>
+                </UserProvider>
+            </NavigationProvider>
         </Provider>
 
     // </ReduxUserProvider>

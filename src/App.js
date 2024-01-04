@@ -47,6 +47,7 @@ import AppNestedDropDown from "./theory/nested-dropdown/AppNestedDropDown";
 import AppReduxThunks from "./theory/redux-toolkit-thunks-Stephen-Grider/AppReduxThunks";
 import AppReduxToolkitMultipleSlices from "./theory/redux-toolkit-multiple-slices/AppReduxToolkitMultipleSlices";
 import AppCssModules from "./theory/css-modules/AppCssModules";
+import AppNavigation from "./theory/navigation-Stephen-Grider/AppNavigation";
 
 
 
@@ -107,6 +108,7 @@ function App() {
       {/* <AppRouter/> */}
       {/* <AppProtectedRoutes/> */}
       {/* <AppReactRouter/> */}
+      <AppNavigation/>
 
       {/* Formik */}
       {/* <AppFormik/> */}
@@ -135,7 +137,7 @@ function App() {
       {/* <ReduxToolkit/> */}
       {/* <AppToolKitSG/> */}
       {/* <AppReduxThunks/> */}
-      <AppReduxToolkitMultipleSlices/>
+      {/* <AppReduxToolkitMultipleSlices/> */}
 
 
       {/* React hook form */}
