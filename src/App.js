@@ -48,6 +48,8 @@ import AppReduxThunks from "./theory/redux-toolkit-thunks-Stephen-Grider/AppRedu
 import AppReduxToolkitMultipleSlices from "./theory/redux-toolkit-multiple-slices/AppReduxToolkitMultipleSlices";
 import AppCssModules from "./theory/css-modules/AppCssModules";
 import AppNavigation from "./theory/navigation-Stephen-Grider/AppNavigation";
+import TablePage from "./theory/data-table-StephenGrider/pages/TablePage";
+import AppDataTable from "./theory/data-table-StephenGrider/AppDataTable";
 
 
 
@@ -108,8 +110,8 @@ function App() {
       {/* <AppRouter/> */}
       {/* <AppProtectedRoutes/> */}
       {/* <AppReactRouter/> */}
-      <AppNavigation/>
-
+      {/* <AppNavigation/> */}
+    
       {/* Formik */}
       {/* <AppFormik/> */}
       {/* <AppFormikValidationSchema/> */}
@@ -128,6 +130,7 @@ function App() {
 
       {/* Table sorting filtering */}
       {/* <AppTable/> */}
+      <AppDataTable/>
 
       {/* Redux */}
       {/* <AppRedux searchText='foo'/> */}

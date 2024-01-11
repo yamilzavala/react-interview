@@ -12,6 +12,7 @@ import {BrowserRouter } from 'react-router-dom';
 import { store } from './theory/redux-toolkit-multiple-slices/store'
 import { Provider } from 'react-redux';
 import {NavigationProvider} from './theory/navigation-Stephen-Grider/context/navigation'
+import './theory/data-table-StephenGrider/styles/styles.scss'
 
 
 const el = document.getElementById('root');
