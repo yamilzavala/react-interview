@@ -1,5 +1,6 @@
 import React from 'react'
 import Table from '../components/Table'
+import { tableConfig } from './Table.config'
 
 export default function TablePage() {
   const data = [
@@ -11,7 +12,7 @@ export default function TablePage() {
 
   return (
     <>
-      <Table data={data}/>
+      <Table data={data} config={tableConfig}/>
     </>
   )
 }
