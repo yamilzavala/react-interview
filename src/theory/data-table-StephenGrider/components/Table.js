@@ -14,9 +14,9 @@ export default function Table({data, config}) {
   //     <td>{config[2].render(value)}{value.score}</td>
   //   </tr>
   // ))
-  const renderedRows = data.map((fruit, idx) => {
+  const renderedRows = data.map((rowData, idx) => {
     const renderedCells = config.map((col,idx2) => {
-      return <td key={idx2}>{col.render(fruit)}</td>
+      return <td key={idx2}>{col.render(rowData)}</td>
     })
 
     return (
