@@ -50,6 +50,7 @@ import AppCssModules from "./theory/css-modules/AppCssModules";
 import AppNavigation from "./theory/navigation-Stephen-Grider/AppNavigation";
 import TablePage from "./theory/data-table-StephenGrider/pages/TablePage";
 import AppDataTable from "./theory/data-table-StephenGrider/AppDataTable";
+import AppSorting from "./theory/sorting/AppSorting";
 
 
 
@@ -130,7 +131,8 @@ function App() {
 
       {/* Table sorting filtering */}
       {/* <AppTable/> */}
-      <AppDataTable/>
+      {/* <AppDataTable/> */}
+      <AppSorting/>
 
       {/* Redux */}
       {/* <AppRedux searchText='foo'/> */}

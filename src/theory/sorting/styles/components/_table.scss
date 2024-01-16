@@ -1,0 +1,40 @@
+@mixin square($color){
+    background: $color;
+    border: solid 1px $color;
+    width: 30px;
+    height: 30px;
+}
+
+.red {
+    @include square(red)
+}
+.orange {
+    @include square(orange)
+}
+.yellow {
+    @include square(yellow)
+}
+.green {
+    @include square(green)
+}
+
+
+
+table {
+    width: auto;     
+    color: white;
+    background-color: black;
+    
+
+    thead {
+        color: black;
+        padding: 15px;
+      }
+    
+    tbody tr td{
+       margin: 10px;
+       padding: 15px;
+    }
+}
+
+  
