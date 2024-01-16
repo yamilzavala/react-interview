@@ -1,21 +1,13 @@
-import React from 'react'
-import { Square } from './Square'
-
+import React, {Fragment} from 'react'
 
 export default function Table({data, config}) {
-  const renderedHeaders = config.map((column, idx) => (
-    <th key={idx}>{column.label}</th>)
-  )
+  const renderedHeaders = config.map((column, idx) => {
+    if(column.header) return <Fragment key={idx}>{column.header()}</Fragment> 
+    return <th key={idx}>{column.label}</th>
+  })
 
-  // const renderedRows = data.map((value, idx) => (
-  //   <tr key={idx}>
-  //     <td>{config[0].render(value)}</td>
-  //     <td><Square color={config[1].render(value)}/></td>
-  //     <td>{config[2].render(value)}{value.score}</td>
-  //   </tr>
-  // ))
   const renderedRows = data.map((rowData, idx) => {
-    const renderedCells = config.map((col,idx2) => {
+    const renderedCells = config.map((col,idx2) => {      
       return <td key={idx2}>{col.render(rowData)}</td>
     })
 
