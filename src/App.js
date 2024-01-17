@@ -51,6 +51,7 @@ import AppNavigation from "./theory/navigation-Stephen-Grider/AppNavigation";
 import TablePage from "./theory/data-table-StephenGrider/pages/TablePage";
 import AppDataTable from "./theory/data-table-StephenGrider/AppDataTable";
 import AppSorting from "./theory/sorting/AppSorting";
+import AppRepository from "./theory/component-repository/AppRepository";
 
 
 
@@ -132,7 +133,7 @@ function App() {
       {/* Table sorting filtering */}
       {/* <AppTable/> */}
       {/* <AppDataTable/> */}
-      <AppSorting/>
+      {/* <AppSorting/> */}
 
       {/* Redux */}
       {/* <AppRedux searchText='foo'/> */}
@@ -165,6 +166,9 @@ function App() {
       {/* nested dropdown - select */}
       {/* <AppNestedDropDown/> */}
       {/* <AppCssModules/> */}
+
+      {/* components repository */}
+      <AppRepository />
     </div>
   );
 }
