@@ -54,8 +54,6 @@ import AppSorting from "./theory/sorting/AppSorting";
 import AppRepository from "./theory/component-repository/AppRepository";
 
 
-
-
 function App() {
 
   const handleLogin = (credentials) => {
@@ -168,7 +166,7 @@ function App() {
       {/* <AppCssModules/> */}
 
       {/* components repository */}
-      <AppRepository />
+      {/* <AppRepository /> */}
     </div>
   );
 }
