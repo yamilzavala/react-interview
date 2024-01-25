@@ -166,7 +166,7 @@ function App() {
       {/* <AppCssModules/> */}
 
       {/* components repository */}
-      {/* <AppRepository /> */}
+      <AppRepository/>
     </div>
   );
 }

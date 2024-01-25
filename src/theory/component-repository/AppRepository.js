@@ -1,29 +1,16 @@
 import React from 'react';
-import Button from './components/Button';
-import { GoBellFill, GoCodeReview, GoDependabot } from "react-icons/go";
+import ButtonPage from './pages/ButtonPage'
+import Accordion from './components/Accordion';
+import {accordionData} from './data/data'
 
 const AppRepository = () => {
-    const handleClick = () => {
-        console.log('Clicked')
-    }
-
+   
     return (
-        <div>
-            <Button primary onClick={handleClick}>
-                <GoBellFill/>
-                Some thex
-            </Button>
-            <Button secondary>
-                <GoCodeReview/>
-                Some thex
-            </Button>
-            <Button success>
-                <GoDependabot/>
-                Some thex
-            </Button>
-            <Button warning rounded>Some thex</Button>
-            <Button danger>Some thex</Button>
-        </div>
+        <>
+       
+            {/* <ButtonPage/> */}
+            <Accordion items={accordionData}/>
+        </>
     );
 };
 
