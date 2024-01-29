@@ -52,6 +52,8 @@ import TablePage from "./theory/data-table-StephenGrider/pages/TablePage";
 import AppDataTable from "./theory/data-table-StephenGrider/AppDataTable";
 import AppSorting from "./theory/sorting/AppSorting";
 import AppRepository from "./theory/component-repository/AppRepository";
+import AppCss from "./theory/css/AppCss";
+import AppImg from "./theory/image/AppImg";
 
 
 function App() {
@@ -166,7 +168,13 @@ function App() {
       {/* <AppCssModules/> */}
 
       {/* components repository */}
-      <AppRepository/>
+      {/* <AppRepository/> */}
+
+      {/* css */}
+      {/* <AppCss/> */}
+
+      {/* image */}
+      <AppImg/>
     </div>
   );
 }
